@@ -1,0 +1,47 @@
+.achivements{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 70px 70px 120px;
+    gap: 30px;
+    color: var(--title);
+}
+.achivements h2{
+    margin: 0px auto;
+    margin-bottom: 40px;
+    text-align: center;
+    color: var(--title);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.certification{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+.certification img{
+    width: 100px;
+    height: 60px;
+    border-radius: 3px;
+}
+.certification p{
+    font-size: 17px;
+    font-weight:500;
+    line-height: 25px;
+    margin: 0;
+}
+
+.certification p span{
+    display: block;
+    font-size: 19px;
+    font-weight:600;
+    margin-bottom: 5px !important;
+}
+
+@media (max-width:850px) {
+    .achivements{
+ 
+ padding: 40px;
+ }
+ }

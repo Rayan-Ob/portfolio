@@ -1,0 +1,66 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+
+:root{
+  --body-img :   url("/public/images/bg-4k.jpg"); 
+  --body-background : white;
+  --title: rgb(20, 28, 58);
+  --primary-purple:rgba(147, 125, 194, 1)
+}
+
+
+[data-theme='dark']{
+  --body-background : rgba(15, 15, 15);
+  --title: white;
+  --body-img :   url("/public/images/wall-2.jfif"); 
+
+}
+
+
+
+body{
+  background-image: var(--body-img);
+  background-size: cover;
+  object-fit: fill;
+}
+.color-change{
+  background-color: var(--body-background);
+  color: var(--title);
+}
+.body-color{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+[data-theme='dark'] .body-color{
+  background-color: transparent;
+}
+
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit !important;
+}
+a,button{
+  cursor: pointer !important;
+}
+.flex{
+  display: flex;
+}
+.flex-bw{
+  justify-content: space-between;
+}
+.al-c{
+  align-items: center;
+}
+/* p{
+  margin: 0;
+} */
+

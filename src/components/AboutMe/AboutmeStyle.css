@@ -1,0 +1,28 @@
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 100px;
+    color: rgb(240, 240, 240);
+    background-color: rgb(20, 28, 58);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px 0px, rgb(20, 28, 58) 0px 0px 0px 1px;
+    width: 80%;
+    margin: 70px auto;
+    line-height: 27px;
+    border-radius: 12px;
+}
+
+.aboutme h2{
+    margin: 0px auto;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    
+}
+@media(max-width:1092px){
+    .aboutme{
+        padding: 40px;
+    } 
+}

@@ -1,0 +1,152 @@
+nav {
+  width: 100%;
+  height: 100px;
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  /* background-color: var(--body-background); */
+  color: var(--title);
+
+}
+
+/* nav .logo {
+  width: 50px;
+  height: 26px;
+} */
+.logo img{
+  width: 160px;
+}
+
+.sun{
+  width: 20px;
+}
+.nav-li{
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 23.4px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  
+  
+}
+
+/* nav items for desktop */
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-grow: 6;
+  color: var(--title);
+}
+
+.nav-items-row {
+  display: flex;
+  gap: 35px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.03px;
+  margin: 0;
+}
+
+
+nav button {
+  background-color: transparent;
+  color: var(--title);
+  display: flex;
+  align-items: center;
+  gap: 7.49px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#dark-light{
+  color: var(--title);
+}
+/* #dark-light img{
+  fill: var(--title) !important;
+
+} */
+
+/* =================================== Mobile Navbar ====================================== */
+.menu-icon {
+  display: none;
+  
+  width: 25px;
+
+}
+
+.nav-mobile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  padding-top: 105px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.nav-mobile ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.nav-mobile-items {
+  padding-left: 0 !important;
+}
+
+.nav-mobile ul li {
+  font-size: 16px;
+  line-height: 24.03px;
+  height: 39px;
+  text-align: center;
+}
+
+.nav-mobile button {
+  margin-left: 20px;
+}
+
+
+.close-icon {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 18px;
+  height: 18px;
+}
+
+.dark-mob{
+  margin:0 auto !important;
+  text-align: center !important;
+}
+
+ 
+
+/* =================================== Responsive ================================== */
+@media (max-width:1092px) {
+
+  .nav-items-row,
+  nav .nav-row button {
+
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    width: 18px;
+  }
+  nav{
+    padding:0 40px;
+  }
+
+  .logo img{
+    width: 110px;
+  }
+
+
+}
+
